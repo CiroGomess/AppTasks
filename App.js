@@ -1,13 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View} from 'react-native';
+// Telas 
+import TaskList from './src/screens/TaskList'
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>
-        Hello Ciro!
-      </Text>
+
+
+      
+      <TaskList />
       <StatusBar style="auto" />
     </View>
   );
